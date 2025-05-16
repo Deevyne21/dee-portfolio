@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #98a5c0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  background: #111c3e;
+  /* background: #004aad; */
+}
+
+.logo-text {
+  font-size: 18px;
+  color: #ffe605;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.nav-links a:hover {
+  cursor: pointer;
+  color: #ffe605;
+}
+
+.hire-me {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #ffe605;
+  border: #fff;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.hire-me:hover {
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(to left, #22234b, #6610f2);
+  transform: scale(1.1);
+}
+
+.main-container {
+  width: 100%;
+  /* max-width: 1300px; */
+  margin: 0 auto;
+}
+
+.hero {
+  background: #22234b;
+  padding: 20px 50px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  color: #fff;
+}
+
+.hero-left .heading-text {
+  font-size: 18px;
+}
+
+.hero-left .intro {
+  color: #ffe605;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+  padding: 10px 0 20px 0;
+}
+
+.hero-left p {
+  width: 70%;
+  padding: 0 0 30px 0;
+}
+
+.cv-btn button {
+  background: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.cv-btn button a {
+  color: black;
+}
+
+.cv-btn button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(to left, #22234b, #6610f2);
+  transform: scale(1.1);
+}
+
+button.cv a:hover {
+  /* cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(to left, #22234b, #6610f2); */
+  /* transform: scale(1); */
+}
+
+/* About Me */
+.about {
+  background: #111c3e;
+  padding: 20px 50px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  color: #fff;
+}
+
+.about-left {
+  width: 40%;
+}
