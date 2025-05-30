@@ -9,6 +9,13 @@ body {
   background: #98a5c0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Outfit', sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -132,11 +139,98 @@ button.cv a:hover {
 .about-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 50px;
   color: #fff;
 }
 
 .about-left {
   width: 40%;
+  padding: 30px 0;
+}
+/* 
+.about-left .img-holder {
+  width: 100%;
+  border: 2px solid #ffe605;
+} */
+
+.img-holder img {
+  width: auto;
+  height: 350px;
+  border: 2px solid #ffe605;
+  border-radius: 20px;
+}
+
+.about-right {
+  padding: 30px 50px 0 0;
+  width: 60%;
+}
+
+.about-right-content {
+  width: 100%;
+}
+
+.about-right-content h2 {
+  color: #ffe605;
+  font-size: 30px;
+}
+
+.about-right-content p {
+  width: 90%;
+  padding: 10px 0;
+}
+
+/* Skills */
+.skills-container {
+  padding: 50px 0;
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.techstacks {
+  width: 30%;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+.techstacks h3 {
+  padding-bottom: 10px;
+}
+
+.basic-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 10px 0;
+}
+
+.version-control {
+  width: 30%;
+}
+
+.designs {
+  width: 30%;
+}
+
+/* Services Section */
+
+.services {
+  padding: 50px;
+}
+
+.service-container {
+  display: flex;
 }
