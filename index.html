@@ -19,13 +19,15 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Divine Portfolio</title>
   </head>
+
   <body>
     <main class="main-container">
+      <div class="bg-particles" id="particles"></div>
       <header>
-        <div class="logo-text">Divine</div>
+        <div class="logo-text helper">Divine</div>
         <nav class="nav-bar">
           <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Testimonials</a></li>
@@ -39,11 +41,9 @@
         <div class="hero-container">
           <div class="hero-left">
             <h2 class="heading-text">
-              Hi, I'm <span class="intro">Divine Johnson</span>
+              Hi, I'm <span class="intro helper"> Divine Johnson</span>
             </h2>
             <h1><span class="typed-text">A FrontEnd Web Developer</span></h1>
-            <!-- <h2><span class="typed-text">Designer</span></h2>
-            <h2><span class="typed-text">Freelancer</span></h2> -->
             <p>
               Passionate about building websites that not only look stunning but
               also function seamlessly. I specialize in turning ideas into
@@ -69,7 +69,7 @@
           </div>
           <div class="about-right">
             <div class="about-right-content">
-              <h2>About Me</h2>
+              <h2 class="helper">About Me</h2>
               <div class="about-content">
                 <p>
                   I'm a passionate frontend developer who loves turning ideas
@@ -124,12 +124,21 @@
               <h3>Version Control</h3>
               <div class="basic-skills">
                 <div>
-                  <p><i class="fa-solid fa-square-check"></i> Git</p>
+                  <p>
+                    <i class="fa-solid fa-square-check" class="skills-icon"></i>
+                    Git
+                  </p>
                   <span>Experienced</span>
                 </div>
                 <div class="basic-skills">
                   <div>
-                    <p><i class="fa-solid fa-square-check"></i> GitHub</p>
+                    <p>
+                      <i
+                        class="fa-solid fa-square-check"
+                        class="skills-icon"
+                      ></i>
+                      GitHub
+                    </p>
                     <span>Experienced</span>
                   </div>
                 </div>
@@ -200,6 +209,9 @@
             </p>
           </div>
           <div class="card two">
+            <div class="icon">
+              <i class="fa-solid fa-laptop"></i>
+            </div>
             <h3>Custom Landing Page</h3>
             <p>
               Need a high-converting landing page for your product or service? I
