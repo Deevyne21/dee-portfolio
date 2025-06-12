@@ -514,6 +514,7 @@ header {
   width: 100%;
   display: flex;
   padding: 50px 30px;
+  /* background: red; */
 }
 
 .feedback-left {
@@ -529,25 +530,36 @@ header {
   background-clip: text;
 }
 
+.feedback-left p {
+  width: 80%;
+}
+
 .feedback-right {
-  width: 50%;
-  padding: 20px 30px;
+  width: 60%;
+  padding: 20px 20px;
+  /* margin-left: 30px; */
+  /* background: yellow; */
+}
+
+.feedback-right-card {
+  width: 100%;
+  display: flex;
+  gap: 30px;
 }
 
 .feedback-right-content {
-  width: 80%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
-  padding: 20px 20px;
+  padding: 30px 20px;
   border: none;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   box-shadow: -1px 4px 12px -7px rgba(0, 0, 0, 0.75);
-  /* align-items: center; */
 }
 
 .feedback-right-content .avatar img {
@@ -558,7 +570,12 @@ header {
 }
 
 .feedback-right-content p {
-  padding: 10px 10px;
+  padding: 20px 10px;
+}
+
+.two {
+  /* display: none; */
+  margin: 30px 0;
 }
 
 /* Animations */
