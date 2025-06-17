@@ -305,14 +305,15 @@ header {
 
 .social-links {
   display: flex;
+  align-items: center;
   gap: 20px;
   padding-left: 20x;
 }
 
 .social-links span i {
   font-size: 20px;
-  color: #11056e;
-  padding: 10x 10px;
+  color: #faf7fa;
+  padding: 15x 10px;
   margin-left: 10px;
 }
 
@@ -531,14 +532,12 @@ header {
 }
 
 .feedback-left p {
-  width: 80%;
+  width: 85%;
 }
 
 .feedback-right {
   width: 60%;
   padding: 20px 20px;
-  /* margin-left: 30px; */
-  /* background: yellow; */
 }
 
 .feedback-right-card {
@@ -574,8 +573,143 @@ header {
 }
 
 .two {
-  /* display: none; */
+  display: none;
   margin: 30px 0;
+}
+
+.feedback-swipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+.feedback-swipe span {
+  padding: 8px 35px;
+  background: #7c7a7a;
+  backdrop-filter: blur(20px);
+}
+
+.feedback-swipe span:hover {
+  opacity: 0.8;
+}
+
+/* Contact */
+.contact {
+  padding: 50px 30px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  padding: 30px 30px;
+}
+
+.contact-left {
+  width: 40%;
+}
+
+.contact-details {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-icon i {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  background: #0f0a18;
+}
+
+.contact-text h4 {
+  font-size: 18px;
+}
+
+.contact-text button {
+  padding: 8px 15px;
+  margin: 8px 0 20px 0;
+}
+
+.contact-text button a {
+  color: #0b0b0b;
+}
+
+.contact-right {
+  width: 60%;
+}
+
+.contact-box {
+  width: 500px;
+  padding: 10px 0;
+}
+
+.input-field {
+  width: 500px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.textarea-field {
+  height: 130px;
+  padding-top: 15px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-box .btn {
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  backdrop-filter: blur(20px);
+  background-color: #0f0a18;
+  color: #fff;
+  transition: 0.15s transform ease;
+}
+
+.contact-box .btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* Footer */
+
+.footer {
+  padding: 50px 30px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+#footer-links i {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 50px;
+  backdrop-filter: blur(20px);
+  background: #0f0a18;
 }
 
 /* Animations */
