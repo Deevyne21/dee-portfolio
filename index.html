@@ -24,7 +24,7 @@
     <main class="main-container">
       <div class="bg-particles" id="particles"></div>
       <header>
-        <div class="logo-text helper">Divine</div>
+        <div class="logo-text helper-text-color">Divine</div>
         <nav class="nav-bar">
           <ul class="nav-links">
             <li><a href="#" class="active">Home</a></li>
@@ -41,7 +41,8 @@
         <div class="hero-container">
           <div class="hero-left">
             <h2 class="heading-text">
-              Hi, I'm <span class="intro helper"> Divine Johnson</span>
+              Hi, I'm
+              <span class="intro helper-text-color"> Divine Johnson</span>
             </h2>
             <h1><span class="typed-text">A FrontEnd Web Developer</span></h1>
             <p>
@@ -49,8 +50,14 @@
               also function seamlessly. I specialize in turning ideas into
               clean, interactive, and user-friendly websites.
             </p>
-            <button class="hire-me btns">Hire Me</button>
-            <button class="cv btnns"><a href="#">Download CV</a></button>
+
+            <div class="btn-container">
+              <button class="hire-me btns">Hire Me</button>
+              <div class="fancy-btn">
+                <div></div>
+                <button class="cv btnns"><a href="#">Download CV</a></button>
+              </div>
+            </div>
           </div>
 
           <div class="hero-right">
@@ -69,7 +76,7 @@
           </div>
           <div class="about-right">
             <div class="about-right-content">
-              <h2 class="helper">About Me</h2>
+              <h2 class="helper-text-color">About Me</h2>
               <div class="about-content">
                 <p>
                   I'm a passionate frontend developer who loves turning ideas
@@ -82,15 +89,19 @@
               <div class="social-links">
                 <p>
                   Follow Me on:
-                  <span class="twitter">
-                    <a href="https://x.com/codewithjaya">
-                      <i class="fa-brands fa-x-twitter"></i>
+                  <span>
+                    <a href="https://github.com/Deevyne21">
+                      <i class="fa-brands fa-github"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/divine-johnson/">
                       <i class="fa-brands fa-linkedin-in"></i>
                     </a>
-                    <a href="https://github.com/Deevyne21">
-                      <i class="fa-brands fa-github"></i>
+                    <a href="https://x.com/codewithjaya">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/codewithjaya/">
+                      <i class="fa-brands fa-instagram"></i>
                     </a>
                   </span>
                 </p>
@@ -99,7 +110,7 @@
           </div>
         </div>
         <div class="skills-container">
-          <h2 class="helper">My Skills</h2>
+          <h2 class="helper-text-color">My Skills</h2>
           <div class="skills-wrapper">
             <div class="techstacks version-control">
               <h3>Version Control</h3>
@@ -124,6 +135,7 @@
                   </div>
                 </div>
               </div>
+              <div></div>
             </div>
             <div class="techstacks web-dev">
               <h3>Frontend Development</h3>
@@ -178,7 +190,7 @@
 
       <!-- SERVICES SECTION -->
       <section class="services" id="services">
-        <h2 class="helper">My Services</h2>
+        <h2 class="helper-text-color">My Services</h2>
         <div class="service-container">
           <div class="card one">
             <div class="icon">
@@ -227,8 +239,11 @@
       </section>
 
       <!-- Project Section -->
-      <section class="section" id="projects">
-        <h2 class="helper">Projects</h2>
+      <section class="projects" id="projects">
+        <div class="feature-project">
+          <h2 class="helper-text-color">Projects</h2>
+          <span>Featured projects</span>
+        </div>
         <div class="project-container">
           <div class="project-card" id="project-list">
             <div class="project-img market-minds">
@@ -251,16 +266,21 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://market-minds-sigma.vercel.app/"
-                    >View Project</a
-                  >
-                </button>
-                <button class="github btnns">
-                  <a href="https://github.com/Deevyne21/market-minds.git"
-                    >GitHub</a
-                  >
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a href="https://market-minds-sigma.vercel.app/"
+                      >View Project</a
+                    >
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a href="https://github.com/Deevyne21/market-minds.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -285,17 +305,23 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://microsoft-home-page-clone-liard.vercel.app/"
-                    >View Project</a
-                  >
-                </button>
-                <button class="github btnns">
-                  <a
-                    href="https://github.com/Deevyne21/Microsoft-Home-page-clone.git"
-                    >GitHub</a
-                  >
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a
+                      href="https://microsoft-home-page-clone-liard.vercel.app/"
+                      >View Project</a
+                    >
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a
+                        href="https://github.com/Deevyne21/Microsoft-Home-page-clone.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -320,12 +346,21 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://mini-web-three.vercel.app/">View Project</a>
-                </button>
-                <button class="github btnns">
-                  <a href="https://github.com/Deevyne21/mini-web.git">GitHub</a>
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a href="https://mini-web-three.vercel.app/"
+                      >View Project</a
+                    >
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a href="https://github.com/Deevyne21/mini-web.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -351,16 +386,21 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://to-do-app-xi-gilt-17.vercel.app/"
-                    >View Project</a
-                  >
-                </button>
-                <button class="github btnns">
-                  <a href="https://github.com/Deevyne21/To-do-app.git"
-                    >GitHub</a
-                  >
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a href="https://to-do-app-xi-gilt-17.vercel.app/"
+                      >View Project</a
+                    >
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a href="https://github.com/Deevyne21/To-do-app.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -385,16 +425,21 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://caculator-app-theta.vercel.app/"
-                    >View Project</a
-                  >
-                </button>
-                <button class="github btnns">
-                  <a href="https://github.com/Deevyne21/caculatorApp.git"
-                    >GitHub</a
-                  >
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a href="https://caculator-app-theta.vercel.app/"
+                      >View Project</a
+                    >
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a href="https://github.com/Deevyne21/caculatorApp.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -420,12 +465,19 @@
                 <span>JavaScript</span>
               </div>
               <div class="project-links">
-                <button class="live-project btns">
-                  <a href="https://yoyo-pay.vercel.app/">View Project</a>
-                </button>
-                <button class="github btnns">
-                  <a href="https://github.com/Deevyne21/yoyo-pay.git">GitHub</a>
-                </button>
+                <div class="btn-container">
+                  <button class="live-project btns">
+                    <a href="https://yoyo-pay.vercel.app/">View Project</a>
+                  </button>
+                  <div class="fancy-btn">
+                    <div></div>
+                    <button class="live-project github btnns">
+                      <a href="https://github.com/Deevyne21/yoyo-pay.git"
+                        >GitHub</a
+                      >
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -436,7 +488,7 @@
       <section class="feedback">
         <div class="feedback-container">
           <div class="feedback-left">
-            <h2 class="helper">Testimonial</h2>
+            <h2 class="helper-text-color">Testimonial</h2>
             <p>Let’s hear what my clients have to Say!</p>
             <p>
               I know you’re curious about what it’s like to work with me. So,
@@ -502,7 +554,7 @@
       </section>
       <!-- Contact Section -->
       <section class="contact">
-        <h2 class="helper">Contact Me</h2>
+        <h2 class="helper-text-color">Contact Me</h2>
         <div class="contact-container">
           <div class="contact-left">
             <div id="contact">
@@ -562,6 +614,8 @@
             </div>
           </div>
           <div class="contact-right">
+            <span>Get in Touch </span>
+            <p>Let's talk about your next project!</p>
             <div class="contact-box">
               <form>
                 <input type="text" class="input-field" placeholder="Name" />
@@ -587,26 +641,41 @@
       <footer class="footer">
         <div class="footer-container">
           <div class="footer-left">
-            <h4>Divine Johnson</h4>
+            <span class="helper-text-color">Divine Johnson</span>
             <p>Turning ideas into interactive experiences.</p>
             <div class="social-links" id="footer-links">
               <p>
                 Follow Me on:
-                <span class="twitter">
-                  <a href="https://x.com/codewithjaya">
-                    <i class="fa-brands fa-x-twitter"></i>
+                <span>
+                  <a href="https://github.com/Deevyne21">
+                    <i class="fa-brands fa-github"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/divine-johnson/">
                     <i class="fa-brands fa-linkedin-in"></i>
                   </a>
-                  <a href="https://github.com/Deevyne21">
-                    <i class="fa-brands fa-github"></i>
+                  <a href="https://x.com/codewithjaya">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/codewithjaya/">
+                    <i class="fa-brands fa-instagram"></i>
                   </a>
                 </span>
               </p>
             </div>
           </div>
-          <div class="footer-right"></div>
+          <div class="footer-nav">
+            <ul class="nav-links footer-nav-links">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-right">
+            <p>© 2025 Divine Johnson. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </main>
