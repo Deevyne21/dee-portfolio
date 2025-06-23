@@ -6,8 +6,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  /* background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, hsl(224, 48%, 16%) 100%); */
-  background-color: red;
+  background: linear-gradient(
+    135deg,
+    #0c0c0c 0%,
+    #1a1a2e 50%,
+    hsl(224, 48%, 16%) 100%
+  );
+  /* background-color: red; */
   color: #ffffff;
 }
 
@@ -163,10 +168,9 @@ header {
 
 .main-container {
   /* max-width: 1200px; */
-  width: 100%;
+  /* width: 100%; */
   padding: 100px 0 0 0;
   margin: 0 auto;
-  background-color: yellow;
 }
 
 .hero {
@@ -939,11 +943,11 @@ header {
   }
 }
 
-/* Media Query @500px */
+/* Media Query Max-width: 500px */
 @media (max-width: 500px) {
   header {
     padding: 20px 0;
-    /* width: 80%; */
+    width: 90%;
   }
 
   .hero-container {
@@ -1019,6 +1023,71 @@ header {
 
   .footer-nav-links {
     padding: 10px 0;
+  }
+}
+
+/* Media Query Maxwidth @425px */
+@media (max-width: 425px) {
+  header {
+    padding: 20px 20px;
+    width: 80%;
+  }
+
+  .input-field {
+    width: 350px;
+  }
+
+  .contact-box .btn {
+    width: 350px;
+  }
+}
+
+/* Media Query Maxwidth @375px */
+@media (max-width: 375px) {
+  header {
+    width: 70%;
+  }
+
+  .main-container {
+    padding: 50px 0;
+  }
+
+  .techstacks {
+    width: 100%;
+  }
+
+  .card {
+    padding: 50px 10px;
+  }
+
+  .contact-right {
+    padding: 50px 10px;
+  }
+
+  .input-field {
+    width: 300px;
+  }
+
+  .contact-box .btn {
+    width: 300px;
+  }
+}
+
+/* Media Query Maxwidth @320px */
+@media (max-width: 320px) {
+  header {
+    width: 58%;
+  }
+  .contact-left {
+    width: 80%;
+  }
+
+  .input-field {
+    width: 250px;
+  }
+
+  .contact-box .btn {
+    width: 250px;
   }
 }
 
