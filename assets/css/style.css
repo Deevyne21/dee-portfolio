@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+  /* background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, hsl(224, 48%, 16%) 100%); */
+  background-color: red;
   color: #ffffff;
 }
 
@@ -162,8 +163,10 @@ header {
 
 .main-container {
   /* max-width: 1200px; */
+  width: 100%;
   padding: 100px 0 0 0;
   margin: 0 auto;
+  background-color: yellow;
 }
 
 .hero {
@@ -933,6 +936,89 @@ header {
 
   .footer-nav-links {
     display: block;
+  }
+}
+
+/* Media Query @500px */
+@media (max-width: 500px) {
+  header {
+    padding: 20px 0;
+    /* width: 80%; */
+  }
+
+  .hero-container {
+    padding-left: 20px;
+  }
+
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .about-right {
+    padding-right: 0;
+  }
+
+  .skills-container {
+    padding: 50px 20px;
+  }
+
+  .basic-skills {
+    padding: 10px 15px;
+  }
+
+  /* My Services */
+  .card {
+    width: 100%;
+  }
+
+  .card p {
+    width: 100%;
+  }
+
+  /* Testimonial / Feedback */
+  .feedback-container {
+    padding: 0 20px;
+  }
+
+  .feedback-left {
+    padding: 20px 20px;
+  }
+
+  .feedback-left .heading-content {
+    padding-top: 20px;
+  }
+
+  .feedback-left p {
+    width: 100%;
+  }
+
+  /* Contact Me */
+  .contact {
+    padding: 50px 10px;
+  }
+  .contact-container {
+    padding: 0 20px;
+  }
+
+  .input-field {
+    width: 400px;
+  }
+
+  .contact-btn {
+    justify-content: flex-start;
+  }
+
+  .contact-box .btn {
+    width: 400px;
+  }
+
+  /* Footer */
+  .footer-nav {
+    padding-top: 30px;
+  }
+
+  .footer-nav-links {
+    padding: 10px 0;
   }
 }
 
